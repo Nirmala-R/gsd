@@ -10,7 +10,7 @@ WORKDIR /app
 # Install dependencies
 RUN pip install -r requirements.txt
 
-EXPOSE 8080
+EXPOSE 8090
 
 # Command to run when container starts
 ENTRYPOINT ["python", "app/app.py"]
